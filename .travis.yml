@@ -6,5 +6,6 @@ before_script:
 - psql -c "CREATE USER invoicify WITH PASSWORD 'admin';" -U postgres
 deploy:
   provider: heroku
+  app: peaceful-beach-99535
   api_key:
     secure: jO1PZa8032AHSTo1sPVdiadZIWbyhJKDGzz6ivQEgjHz4m7Vo+/4dHbcxVA6YxsXdCEWwxsz+gBiDqNDkq67+AgraYi+S/JeRSKGIUafpW6c77K4SBiGAQxBui6lmnqIE/qTL3EqR2Zuq0CPSbaoK8GhQBV7RdEpDSNIWRWfJbk5icwUoemUZSZ980U+NGEpzx2OLp1WnIBIfhoxTtcY3FV55irYgTprWwRvBSFTBWdNXEhL+DXA1/4i/pg4R2x5/BH/dW8oaFKwdkChIsvYmzByvsyLNEgaeR6csQ/0xNGt+6WQSAFbqbngyFfTR7cDDUQzLJbAEIrZD+w4o/nVmdudb+QjcZ8QAHGNP5cvAetdb7a8ZBCiKSB5rDW/HcAdPQgwCs39Om6Eo9pE7mtWCHcAO59kCqSOQvzD9vOktt+xlwZu//28gvXq7zuIYlTXqs05PKezr+I7J7M7AKtIbnq/rpgl5ykm/Ae/gU1tO2otsgNQTU3Sey5wM29sTHT14HNqvzPNEuBfig8JZagMyA56h+uycWGMESpDAXfwScJQQwNNsAuv3KHsP7QM7qahnKPf8YGTklD/rmBMAayqNLSwzraNAkxY1v2uZW22wBJ8emtAcY2E+/Nru0A4jk01L1bEiESGOCn/xy6MtF70nlNN3JwLJU2ExijZPoX7PW4=
